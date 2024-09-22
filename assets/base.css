@@ -2392,6 +2392,11 @@ input[type='checkbox'] {
     column-gap: 2rem;
   }
 
+  .header--middle-left.header--center,
+  .header--middle-left.header--right {
+    grid-template-columns: auto 1fr auto;
+  }
+
   .header--middle-center:not(.drawer-menu) {
     grid-template-areas: 'navigation heading icons';
     grid-template-columns: 1fr auto 1fr;
@@ -2785,8 +2790,16 @@ details[open] > .header__submenu {
     justify-content: center;
   }
 
-  .header--middle-left .header__inline-menu {
+  .header--middle-left .header__inline-menu.header__inline-menu--left {
     margin-left: 0;
+  }
+
+  .header--middle-left .header__inline-menu.header__inline-menu--center {
+    margin: 0 auto;
+  }
+
+  .header--middle-left .header__inline-menu.header__inline-menu--right {
+    margin-left: auto;
   }
 }
 
