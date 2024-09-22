@@ -1,1 +1,288 @@
-{"sections":{"image_banner":{"type":"image-banner","blocks":{"heading":{"type":"heading","settings":{"heading":"Browse our latest products","heading_size":"h0"}},"button":{"type":"buttons","settings":{"button_label_1":"Shop all","button_link_1":"shopify:\/\/collections\/all","button_style_secondary_1":true,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading","button"],"settings":{"image_overlay_opacity":40,"image_height":"large","desktop_content_position":"bottom-center","show_text_box":false,"desktop_content_alignment":"center","color_scheme":"scheme-3","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":false,"show_text_below":false}},"featured_collection":{"type":"featured-collection","settings":{"title":"Featured products","heading_size":"h2","description":"","show_description":false,"description_style":"body","collection":"all","products_to_show":8,"columns_desktop":4,"full_width":false,"show_view_all":true,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"scheme-1","image_ratio":"adapt","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"quick_add":"none","columns_mobile":"2","swipe_on_mobile":false,"padding_top":44,"padding_bottom":36}}},"order":["image_banner","featured_collection"]}
+{
+  "sections": {
+    "image_banner_3n9TkJ": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_cdLpmr": {
+          "type": "heading",
+          "settings": {
+            "heading": "The original foundation for all hair types",
+            "heading_size": "h0"
+          }
+        },
+        "text_natw3f": {
+          "type": "text",
+          "settings": {
+            "text": "Save 20% on shampoo and conditioner liters with code KEUNE20",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_NAJxVg": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop now",
+            "button_link_1": "shopify:\/\/collections",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_cdLpmr",
+        "text_natw3f",
+        "buttons_NAJxVg"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/natallia-photo-eOyQsBmomek-unsplash.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-4",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "featured_collection_rfJeR7": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "hair-products",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-5",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "featured_product_8URatx": {
+      "type": "featured-product",
+      "blocks": {
+        "text_QQjEYt": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_ChKcbW": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_EMEJPk": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_M3fp3T": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_qmwMEp": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_dAecga": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_QnCbqL": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_QQjEYt",
+        "title_ChKcbW",
+        "price_EMEJPk",
+        "variant_picker_M3fp3T",
+        "quantity_selector_qmwMEp",
+        "buy_buttons_dAecga",
+        "share_QnCbqL"
+      ],
+      "settings": {
+        "product": "keune-care-confident-curl-conditioner",
+        "color_scheme": "scheme-1",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "collection_list_LpBJa3": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_DGCaxY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hair-products"
+          }
+        },
+        "featured_collection_rbnfyQ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hair-products"
+          }
+        },
+        "featured_collection_YYBCmi": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hair-products"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_DGCaxY",
+        "featured_collection_rbnfyQ",
+        "featured_collection_YYBCmi"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "scheme-1",
+        "show_view_all": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "rich_text_w7k4ix": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xzpCrN": {
+          "type": "heading",
+          "settings": {
+            "heading": "100 years of Keune",
+            "heading_size": "h0"
+          }
+        },
+        "text_xUbUG6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Since 1922, we have been crafting professional hair products, but we are more than just a supplier. Partner with us, and you'll automatically become part of our global family. We're not saying this just because we're a family-owned company. We genuinely care about you, your salon, and the person in your chair. That's why we do business with a personal touch.<\/p>"
+          }
+        },
+        "button_kWdRRM": {
+          "type": "button",
+          "settings": {
+            "button_label": "View blogs",
+            "button_link": "shopify:\/\/blogs\/news",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_xzpCrN",
+        "text_xUbUG6",
+        "button_kWdRRM"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "image_with_text_3RcPhz": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ziDfXP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Keune Cares",
+            "heading_size": "h1"
+          }
+        },
+        "text_jPMQiY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are on a mission! As a family-owned business, we firmly believe it is our responsibility to care for the planet and its people. We do this through our sustainability program, Keune Cares. Not just for ourselves, but especially for future generations.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_FtHiBw": {
+          "type": "button",
+          "settings": {
+            "button_label": "About us",
+            "button_link": "shopify:\/\/pages\/about-us",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_ziDfXP",
+        "text_jPMQiY",
+        "button_FtHiBw"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Products.webp",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "image_banner_3n9TkJ",
+    "featured_collection_rfJeR7",
+    "featured_product_8URatx",
+    "collection_list_LpBJa3",
+    "rich_text_w7k4ix",
+    "image_with_text_3RcPhz"
+  ]
+}
